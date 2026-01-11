@@ -51,3 +51,6 @@ ios/Runner/GoogleService-Info.plist
 # Keystore files (if any)
 *.jks
 *.keystore
+
+# Environment variables
+.env
