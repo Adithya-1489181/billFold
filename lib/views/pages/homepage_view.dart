@@ -1,4 +1,3 @@
-import 'package:billfold/views/components/navbar_veiw.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -11,12 +10,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        appBar: AppBar(title: Text("BillFold Print")),
-        body: Center(child: Text("Hello")),
-        bottomNavigationBar: NavBar(),
-      ),
-    );
+    return Center(child: Text("HomePage"));
   }
 }
