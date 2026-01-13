@@ -46,6 +46,7 @@ flutter {
 
 dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.15.0"))
+    implementation("androidx.appcompat:appcompat:1.6.1")
     // Add your other dependencies here, for example:
     // implementation("com.google.firebase:firebase-analytics")
 }
