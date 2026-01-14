@@ -1,6 +1,6 @@
 import 'package:billfold/data/notifiers.dart';
 import 'package:billfold/views/components/navbar_widget.dart';
-import 'package:billfold/views/pages/customerpage_view.dart';
+import 'package:billfold/views/pages/moreoptionspage_view.dart';
 import 'package:billfold/views/pages/homepage_view.dart';
 import 'package:billfold/views/pages/inventorypage_view.dart';
 import 'package:billfold/views/pages/invoicepage_view.dart';
@@ -17,7 +17,7 @@ List<Widget> pages = [
   HomePage(),
   InvoicePage(),
   InventoryPage(),
-  CustomerPage(),
+  MoreOptionsPage(),
 ];
 
 class _MainLayoutState extends State<MainLayout> {

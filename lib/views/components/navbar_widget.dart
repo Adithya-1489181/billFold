@@ -22,7 +22,7 @@ class _NavBarState extends State<NavBar> {
               icon: Icon(Icons.inventory),
               label: "Inventory",
             ),
-            NavigationDestination(icon: Icon(Icons.person), label: "Customers"),
+            NavigationDestination(icon: Icon(Icons.more_vert), label: "More"),
           ],
           selectedIndex: currentPageIndex,
           onDestinationSelected: (int index) {
