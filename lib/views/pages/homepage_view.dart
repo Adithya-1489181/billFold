@@ -1,3 +1,4 @@
+import 'package:billfold/views/components/carousel_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -10,6 +11,9 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text("HomePage"));
+    return Padding(
+      padding: const EdgeInsets.all(12),
+      child: Column(children: [CarouselWidget()]),
+    );
   }
 }

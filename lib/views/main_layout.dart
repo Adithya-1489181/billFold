@@ -25,6 +25,7 @@ class _MainLayoutState extends State<MainLayout> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: const Color.fromARGB(255, 230, 230, 230),
         appBar: AppBar(title: Text("BillFold Print")),
         body: ValueListenableBuilder(
           valueListenable: selectedPageNotifier,
