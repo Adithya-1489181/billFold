@@ -1,3 +1,5 @@
+import 'package:billfold/views/components/chartLabel_widget.dart';
+import 'package:billfold/views/components/payStatusChart_widget.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
@@ -31,9 +33,12 @@ class _CarouselWidgetState extends State<CarouselWidget> {
               height: 200,
               width: double.infinity,
               child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("Carousel 1"),
-                  //Chart(),
+                  //Chart
+                  PayStatusChart(),
+                  SizedBox(width: 40),
+                  ChartLabel(),
                   //Values()
                 ],
               ),
